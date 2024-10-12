@@ -24,7 +24,7 @@
 #define I2C1_DUTY_CYCLE FAST_DUTY_CYCLE_2
 
 /* System indication led */
-#define LED_MAC_OS_PIN C10
+//#define LED_MAC_OS_PIN C10
 #define LED_WIN_OS_PIN C11
 #define LED_OS_PIN_ON_STATE 1
 
@@ -34,3 +34,6 @@
 // #define SPI_MOSI_PIN A7
 // #define SPI_MISO_PIN A6
 // #define CKLED2001_SPI_DIVISOR 21
+
+
+#define LED_SCROLL_LOCK_PIN C10
