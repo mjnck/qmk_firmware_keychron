@@ -147,7 +147,7 @@ bool led_update_kb(led_t led_state) {
 //#endif
 
 #ifdef LED_SCROLL_LOCK_PIN
-        writePin(LED_SCROLL_LOCK_PIN, led_state.caps_lock);
+        writePin(LED_SCROLL_LOCK_PIN, led_state.scroll_lock);
 #endif
 
 #ifdef LED_CAPS_LOCK_PIN
